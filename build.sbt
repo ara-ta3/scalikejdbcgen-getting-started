@@ -8,11 +8,11 @@ scalaVersion := "2.13.16"
 
 enablePlugins(ScalikejdbcPlugin)
 
-scalikejdbcSettings ++= Seq(
-  scalikejdbcGeneratorConfig in Compile := GeneratorConfig(
-    packageName = "com.example.infrastructures",
-    template = "queryDsl"
-  )
-)
+// scalikejdbcSettings ++= Seq(
+//   scalikejdbcGeneratorConfig in Compile := GeneratorConfig(
+//     packageName = "com.example.infrastructures",
+//     template = "queryDsl"
+//   )
+// )
 
 
